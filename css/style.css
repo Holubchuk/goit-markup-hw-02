@@ -1,0 +1,43 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #2E2F42;
+    background-color: #FFFFFF;
+}
+ul {
+    list-style-type: none;
+}
+.nav-link:active {
+color: #404BBF;
+}
+.first-section {
+    background-color: #2E2F42;
+}
+.first-section-title {
+    color: #FFFFFF;
+    text-align: center;
+    width: 496px;
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: 2%;
+    line-height: 60px;
+}
+.first-section-button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    text-align: center;
+}
+.first-section-button:hover,
+.first-section-button:focus,
+.first-section-button:active {
+    background-color: #404BBF;
+}
+.portfolio-button-item {
+    background-color: #F4F4FD;
+    color: #4D5AE5;
+}
+.portfolio-button-item:hover,
+.portfolio-button-item:focus,
+.portfolio-button-item:active {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
