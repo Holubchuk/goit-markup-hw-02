@@ -122,7 +122,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 text-align: center;
-color: var(--studio-color);
+color: var(--forth-section-color);
 }
 .list-item {
     background-color: #FFFFFF;
@@ -133,6 +133,7 @@ font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
+color: var(--forth-section-color);
 }
 .our-team-text {
     font-size: 16px;
