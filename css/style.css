@@ -122,7 +122,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 text-align: center;
-color: var(--forth-section-color);
+color: var(--studio-color);
 }
 .list-item {
     background-color: #FFFFFF;
