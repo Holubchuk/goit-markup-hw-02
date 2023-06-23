@@ -66,7 +66,6 @@ address {
 .first-section-title {
     color: #FFFFFF;
     text-align: center;
-    width: 496px;
     font-size: 56px;
     font-weight: 700;
     letter-spacing: 0.02em;
@@ -94,6 +93,7 @@ address {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--first-section-color);
 }
 .features-text {
     font-size: 16px;
@@ -120,6 +120,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 text-align: center;
+color: var(--first-section-color);
 }
 .list-item {
     background-color: #FFFFFF;
@@ -154,7 +155,7 @@ color: #F4F4FD;
 
 .portfolio-button-item {
     font-size:  16px;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
