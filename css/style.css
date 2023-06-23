@@ -14,6 +14,8 @@ body {
     --body-color: #434455;
     --button-color: #4d5ae5;
     --under-image-p-color:  #434455; 
+    --studio-color-footer: #f4f4fd;
+    --forth-section-color: #2e2f42;
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -120,7 +122,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 text-align: center;
-color: var(--first-section-color);
+color: var(--forth-section-color);
 }
 .list-item {
     background-color: #FFFFFF;
@@ -183,4 +185,7 @@ letter-spacing: 0.02em;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--under-image-p-color); 
+}
+.studio-footer {
+    color: var(--studio-color-footer);
 }
