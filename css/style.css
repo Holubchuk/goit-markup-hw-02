@@ -8,14 +8,9 @@ body {
 }
 :root {
   --brand-color: #4d5ae5;
-  --studio-color: #2e2f42;
-  --address-color: #434455;
   --first-section-color: #2e2f42;
   --body-color: #434455;
-  --button-color: #4d5ae5;
-  --under-image-p-color: #434455;
   --studio-color-footer: #f4f4fd;
-  --forth-section-color: #2e2f42;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -30,7 +25,7 @@ body {
   text-decoration: none;
 }
 .accent {
-  color: var(--studio-color);
+  color: var(--first-section-color);
 }
 .logo-footer {
   color: #f4f4fd;
@@ -40,7 +35,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--first-section-color);
   text-decoration: none;
 }
 
@@ -55,7 +50,7 @@ address {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--address-color);
+  color: var(--body-color);
 }
 .contacts-item:hover,
 .contacts-item:focus {
@@ -103,27 +98,19 @@ address {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.third-section-title {
+.section-title {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
-  color: #2e2f42;
+  color: var(--first-section-color);
 }
 .fourth-section {
   background-color: #f4f4fd;
 }
-.fourth-section-title {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  text-align: center;
-  color: var(--forth-section-color);
-}
+
 .list-item {
   background-color: #ffffff;
 }
@@ -133,17 +120,17 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--forth-section-color);
+  color: var(--first-section-color);
 }
 .our-team-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--under-image-p-color);
+  color: var(--body-color);
 }
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--first-section-color);
 }
 .footer-text {
   font-size: 16px;
@@ -161,7 +148,7 @@ address {
   cursor: pointer;
   text-align: center;
   background-color: #f4f4fd;
-  color: var(--button-color);
+  color: var(--brand-color);
 }
 .portfolio-button-item:hover,
 .portfolio-button-item:focus,
@@ -180,7 +167,7 @@ address {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--under-image-p-color);
+  color: var(--body-color);
 }
 .studio-footer {
   color: var(--studio-color-footer);
